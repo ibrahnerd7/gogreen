@@ -1,0 +1,205 @@
+#header{
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+}
+#bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+#bg img{
+    width: 100%;
+    height: 100%;
+}
+#header_wrapper{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+
+}
+#nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    z-index: 2;
+    position: relative;
+  
+}
+
+#nav_wrapper{
+
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+#nav #logo{
+    color: aliceblue;
+    margin: 5px;
+    width: fit-content;
+}
+#nav #logo h1{
+    margin: 5px 0;
+    font-weight: 400;
+    font-style: normal;
+    font-size:24px;
+    padding:5px 0;
+    border-top: 1px solid aliceblue;
+    border-bottom: 1px solid aliceblue;
+}#nav #logo p{
+    margin: 0;
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(228,218,205,0.7);
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+#nav button{
+    display: none;
+}#nav #mobileMenu{
+    display: none;
+}
+#nav ul{
+    width: 30%;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    margin: 0 5vh;
+    list-style: none;
+}
+#nav ul li{
+    color:aliceblue;
+    font-weight: 300;
+    transition: all ease-in-out 350ms;
+    font-size:14px;
+}
+#nav ul li:hover{
+    color:cornflowerblue;
+
+}
+#landin{
+    width:70%;
+    height:fit-content;
+    margin: auto;
+    display: flex;
+    align-items:flex-start;
+    flex-direction:column;
+    justify-content:flex-start;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translateX(-50%) translateY(-50%);
+}#landin h1{
+    width:40%;
+    font-size:60px;
+    font-weight:300;
+    color: aliceblue;
+
+}#landin p{
+        font-weight: 400;
+        font-style: normal;
+        font-family: 'Poppins', sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        line-height: 1.5;
+        width:40%;
+      letter-spacing: 0px;
+
+}
+
+#landin button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+    background-color: cornflowerblue;
+    font-size: 14px;
+    padding: 17px 15px;
+    min-width: 180px;
+    border-radius:30px ;
+    outline: none;
+    transition:all ease-in-out 350ms;
+    border: 1px solid cornflowerblue;
+    cursor: pointer;
+}
+
+#landin button:hover{
+    background-color: aliceblue;
+    color: cornflowerblue;
+}
+
+@media (max-width:1000px){
+    #landin h1{
+        width:90%;
+        font-size:60px;
+        font-weight:300;
+        color: aliceblue;
+    
+    }
+}
+@media (max-width:800px){
+
+    #nav ul{
+        display:none;
+    }#nav button{
+        display:block;
+        outline:none;
+        border:none;
+        background-color:transparent;
+        cursor: pointer;
+    }#nav button img{
+        width: 35px;
+        transition:all ease-in-out 350ms;
+        height: 35px;
+    }
+    #nav #mobileMenu{
+        position: absolute;
+        width: 100%;
+        height: 20vh;
+        background-color: #111929;
+        top: 100%;
+        right: 0;
+        border-radius:0 0 20px 20px;
+        transition:all ease-in-out 350ms;
+    }
+    #nav #mobileMenu ul{
+            display:flex;
+            align-items: center;
+            justify-content:space-evenly;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+    } 
+     #nav #mobileMenu ul li{
+         color: aliceblue;
+         font-size: 14px;
+         padding: 10px 15px;
+         min-width: 180px;
+         border-radius:30px ;
+         transition:all ease-in-out 350ms;
+         border: 1px solid cornflowerblue;
+         cursor: pointer;
+         text-align: center;
+}
+    #landin h1{
+        width:100%;
+        font-size:40px;
+        font-weight:300;
+        color: aliceblue;
+    
+    }#landin p{
+        font-size: 16px;
+        width:90%;
+
+    }
+}

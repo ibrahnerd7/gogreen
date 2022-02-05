@@ -1,0 +1,56 @@
+#Stat{
+    width: 100vw;
+    height:40vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: aliceblue;
+}
+#Stat span{
+    min-width:70%;
+    max-width: 90%; 
+    height:80%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.card {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}.card h1{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    color: #e7ceb1;
+    font-size: 70px;
+    line-height: 1.4;
+    margin: 0;
+}.card p{
+    font-weight: 400;
+    margin: 0;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    color: #828282;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+
+@media (max-width:800px){
+    #Stat{
+        padding: 3vh 0;
+        height:fit-content;
+    }
+    #Stat span{
+        min-width:70%;
+        max-width: 90%; 
+        flex-direction: column;
+    }.card h1{
+        font-size: 50px;
+    }.card p{
+        font-size: 14px;
+    }
+}

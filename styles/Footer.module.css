@@ -1,0 +1,219 @@
+#footer{
+    width:100%;
+    max-height:100vh;
+    min-height:60vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    background-color:rgb(17, 25, 41);
+}
+#footer_wrapper{
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#info{
+    width: 40%;
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+
+}
+#info #logo{
+    color: aliceblue;
+    margin: 5px;
+    width: fit-content;
+    border-top: 1px solid aliceblue;
+    border-bottom: 1px solid aliceblue;
+}
+#info #logo h1{
+    margin: 5px 0;
+    font-weight: 700;
+    font-style: normal;
+    font-size:24px;
+}#info #logo p{
+    margin: 0;
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(228,218,205,0.7);
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+#info h5{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    color: #828282;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+#info h4{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+#info a{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+#footer_wrapper form {
+    width: 40%;
+    height:90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#footer_wrapper form h1{
+    color:aliceblue;
+    font-weight:400;
+    font-size:20px ;
+
+}
+ 
+#footer_wrapper form input {
+    border: 1px solid;
+    padding: 12px 24px;
+    font-size: 16px;
+    width:70%;
+    outline: none;
+    line-height: 24px;
+    color: aliceblue;
+    margin-bottom: 5px;
+    border: none;
+    background-color:rgba(0, 0, 0, 0.527);
+
+}#footer_wrapper form textarea {
+    border: 1px solid;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: aliceblue;
+    border: none;
+    width:70%;
+    outline: none;
+    line-height: 24px;
+    margin-bottom: 5px;
+    background-color:rgba(0, 0, 0, 0.527);
+
+}
+#footer_wrapper form button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+    background-color: cornflowerblue;
+    font-size: 14px;
+    padding: 17px 15px;
+    min-width: 180px;
+    border-radius:30px ;
+    outline: none;
+    transition:all ease-in-out 350ms;
+    border: 1px solid cornflowerblue;
+    cursor: pointer;
+    width: 20%;
+}
+#footer_wrapper form button:hover{
+    background-color: aliceblue;
+    color: cornflowerblue;
+}
+.copy{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+    min-height:5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.copy p{
+    width: 70%;
+    margin: 0;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    color: #828282;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+
+#home_link{
+    position:fixed;
+    bottom: 8%;
+    right: 10%;
+    cursor: pointer;
+    transition: all ease-in-out 350ms;
+
+}#home_link:hover{
+    transform: translateY(-20px);
+ }
+#home_link img{
+    width: 50px;
+    height: 50px;
+}
+@media (max-width:1000px){
+    #footer_wrapper{
+        width: 90%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+}
+@media (max-width:800px){
+    #footer{
+        width:100%;
+        height:100vh;
+    }
+    #footer_wrapper{
+        width: 90%;
+        height: 90%;
+        flex-direction: column;
+        
+    }
+    #info{
+        width: 100%;
+        height:fit-content;
+    
+    }#footer_wrapper form {
+        width: 100%;
+    }#footer_wrapper form input {
+        width:100%;
+    
+    }#footer_wrapper form textarea {
+        width:100%;
+    
+    }
+    .copy p{
+        width: 90%;
+        font-size: 14px;
+    }#info h5{
+        font-size: 14px;
+    }
+    #info h4{
+        font-size: 14px;
+    }
+    #info a{
+        font-size: 14px;
+    }
+}
