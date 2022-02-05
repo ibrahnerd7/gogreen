@@ -6,7 +6,7 @@ export default function Header(){
 
 return(
 
-    <header id={style.header} >
+    <header className={style.header}  id="Home">
         <div id={style.bg} >
             <img src="bg.jpg" alt="" />
             

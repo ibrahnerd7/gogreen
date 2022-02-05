@@ -64,7 +64,7 @@ export default function Navbar(){
 
                 <ul>
 
-                    <Link href="/">
+                    <Link href="#Home">
                                         <a>
                         <li>
                             HOME
@@ -106,7 +106,7 @@ export default function Navbar(){
 
                 <ul>
 
-                    <Link href="/">
+                    <Link href="#Home">
                                         <a>
                         <li>
                             HOME
