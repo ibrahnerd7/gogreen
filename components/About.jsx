@@ -5,7 +5,7 @@ export default function About(){
 
 
     return(
-        <section id={style.About}>
+        <section id={style.About} className="About">
 
 
             <div id={style.About_wrapper}>

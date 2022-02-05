@@ -1,5 +1,6 @@
 import { useState } from 'react'
  import style from '../../styles/Header.module.css'
+import Link from 'next/link'
 
 export default function Navbar(){
 
@@ -69,7 +70,6 @@ export default function Navbar(){
                         </li>
                     </a>
 
-
                     <a href="#">
                         <li>
                             ABOUT US
@@ -97,11 +97,18 @@ export default function Navbar(){
                     </a>
 
 
-                    <a href="#">
-                        <li>
+
+
+                    <Link href=".About">
+                        <a >
+
+                                <li>
                             ABOUT US
-                        </li>
-                    </a>
+                        </li>                    
+                        </a>
+
+                    </Link>
+
 
                     <a href="#">
                         <li>
