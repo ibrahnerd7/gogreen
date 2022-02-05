@@ -7,7 +7,7 @@
  
  
      return (
-        <footer id={style.footer}>
+        <footer className={style.footer} id="Contacts">
 
             <div id={style.footer_wrapper}>
                 <div id={style.info}>

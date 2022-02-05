@@ -1,4 +1,4 @@
-#About{
+.About{
     width: 100%;
     height:70vh;
     background-color:aliceblue;
@@ -42,7 +42,7 @@
 
 
 @media (max-width:1000px){
-    #About{
+    .About{
         width: 100%;
     }
     #About_wrapper{
@@ -57,7 +57,7 @@
     }
 }
 @media (max-width:800px){
-    #About{
+    .About{
         width: 100%;
         height:fit-content;
         padding: 5vh 0;

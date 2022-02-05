@@ -90,16 +90,20 @@ export default function Navbar(){
 
                 <ul>
 
-                    <a href="#">
+                    <Link href="/">
+                                        <a>
                         <li>
                             HOME
                         </li>
                     </a>
+                    
+                    </Link>
 
 
 
 
-                    <Link href=".About">
+
+                    <Link href="#About">
                         <a >
 
                                 <li>
@@ -110,11 +114,15 @@ export default function Navbar(){
                     </Link>
 
 
-                    <a href="#">
+
+                    <Link href="#Contacts">
+                                        <a >
                         <li>
                             CONTACTS
                         </li>
                     </a>
+                    </Link>
+
 
 
 
