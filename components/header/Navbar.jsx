@@ -64,23 +64,39 @@ export default function Navbar(){
 
                 <ul>
 
-                    <a href="#">
+                    <Link href="/">
+                                        <a>
                         <li>
                             HOME
                         </li>
                     </a>
+                    
+                    </Link>
 
-                    <a href="#">
-                        <li>
+
+
+
+
+                    <Link href="#About">
+                        <a >
+
+                                <li>
                             ABOUT US
-                        </li>
-                    </a>
+                        </li>                    
+                        </a>
 
-                    <a href="#">
+                    </Link>
+
+
+
+                    <Link href="#Contacts">
+                                        <a >
                         <li>
                             CONTACTS
                         </li>
                     </a>
+                    </Link>
+
 
 
 

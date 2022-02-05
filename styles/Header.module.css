@@ -190,6 +190,8 @@
          border: 1px solid cornflowerblue;
          cursor: pointer;
          text-align: center;
+}#landin{
+    width:90%;
 }
     #landin h1{
         width:100%;

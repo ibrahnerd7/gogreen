@@ -12,7 +12,7 @@ export default function About(){
 
                 <div id={style.details}>
                     <h1>
-                    GoGreen is a leading provider of integrated environmental solutions in the USA.
+                    Point_blank is a leading provider of integrated environmental solutions in the USA.
                     </h1>
                     <p>
                     Our company is the largest environmental solutions provider in North America, serving more than 21 million municipal, commercial and industrial customers in the U.S. and Canada.

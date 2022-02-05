@@ -1,5 +1,6 @@
 import style from '../../styles/Header.module.css'
 import Navbar from './Navbar'
+import Link from 'next/link'
 
 export default function Header(){
 
@@ -29,9 +30,12 @@ return(
                 Our reliable services protect the environment while allowing your home or business to run like clockwork.
                 </p>
 
-                <button>
+                <Link href="#About">
+                          <button>
                     Learn more
-                </button>
+                </button>      
+                </Link>
+
 
 
 
